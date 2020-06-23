@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Tic Tac Toe game</title>
+
+    <link
+      rel="stylesheet prefetch"
+      href="https://getbootstrap.com/2.3.2/assets/css/bootstrap.css"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <div id="tic-tac-toe">
+      <div class="span3 new_span">
+        <div class="row">
+          <h1 class="span3">Tic Tac Toe 3x3</h1>
+          <div class="span3">
+            <div class="input-prepend input-append">
+              <span class="add-on win_text">O won</span
+              ><strong id="o_win" class="win_times add-on">0</strong
+              ><span class="add-on">time(s)</span>
+            </div>
+            <div class="input-prepend input-append">
+              <span class="add-on win_text">X won</span
+              ><strong id="x_win" class="win_times add-on">0</strong
+              ><span class="add-on">time(s)</span>
+            </div>
+          </div>
+        </div>
+        <button id="btn-start">Starts from <b>O</b></button>
+        <div id="show-game">
+          <p>Time O: <span id="pro">0</span>s</p>
+          <p>Time X: <span id="prx">0</span>s</p>
+          <ul class="row" id="game">
+            <li id="one" class="btn span1">+</li>
+            <li id="two" class="btn span1">+</li>
+            <li id="three" class="btn span1">+</li>
+            <li id="four" class="btn span1">+</li>
+            <li id="five" class="btn span1">+</li>
+            <li id="six" class="btn span1">+</li>
+            <li id="seven" class="btn span1">+</li>
+            <li id="eight" class="btn span1">+</li>
+            <li id="nine" class="btn span1">+</li>
+          </ul>
+
+          <div class="clr">&nbsp;</div>
+          <div class="row">
+            <a href="#" id="reset" class="btn-success btn span3">Restart</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 5x5 -->
+    <div id="tic-tac-toe-5">
+      <div class="span3 new_span-5">
+        <div class="row">
+          <h1 class="span3">Tic Tac Toe 5x5</h1>
+          <div class="span3">
+            <div class="input-prepend input-append">
+              <span class="add-on win_text">O won</span
+              ><strong id="o_win5" class="win_times add-on">0</strong
+              ><span class="add-on">time(s)</span>
+            </div>
+            <div class="input-prepend input-append">
+              <span class="add-on win_text">X won</span
+              ><strong id="x_win5" class="win_times add-on">0</strong
+              ><span class="add-on">time(s)</span>
+            </div>
+          </div>
+        </div>
+        <button id="btn-start-5">Starts from <b>O</b></button>
+        <div id="show-game-5">
+          <p>Time O: <span id="pro-5">0</span>s</p>
+          <p>Time X: <span id="prx-5">0</span>s</p>
+          <ul class="row r-5" id="game-5">
+            <li id="one5" class="btn span1">+</li>
+            <li id="two5" class="btn span1">+</li>
+            <li id="three5" class="btn span1">+</li>
+            <li id="four5" class="btn span1">+</li>
+            <li id="five5" class="btn span1">+</li>
+            <li id="six5" class="btn span1">+</li>
+            <li id="seven5" class="btn span1">+</li>
+            <li id="eight5" class="btn span1">+</li>
+            <li id="nine5" class="btn span1">+</li>
+            <li id="ten5" class="btn span1">+</li>
+            <li id="eleven5" class="btn span1">+</li>
+            <li id="twelve5" class="btn span1">+</li>
+            <li id="thirteen5" class="btn span1">+</li>
+            <li id="fourteen5" class="btn span1">+</li>
+            <li id="fifteen5" class="btn span1">+</li>
+            <li id="sixteen5" class="btn span1">+</li>
+            <li id="seventeen5" class="btn span1">+</li>
+            <li id="eighteen5" class="btn span1">+</li>
+            <li id="nineteen5" class="btn span1">+</li>
+            <li id="twenty5" class="btn span1">+</li>
+            <li id="twentyone5" class="btn span1">+</li>
+            <li id="twentytwo5" class="btn span1">+</li>
+            <li id="twentythree5" class="btn span1">+</li>
+            <li id="twentyfour5" class="btn span1">+</li>
+            <li id="twentyfive5" class="btn span1">+</li>
+          </ul>
+
+          <div class="clr">&nbsp;</div>
+          <div class="row">
+            <a href="#" id="reset-5" class="btn-success btn span3">Restart</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 7x7 -->
+    <div id="tic-tac-toe-7">
+      <div class="span3 new_span-7">
+        <div class="row">
+          <h1 class="span3">Tic Tac Toe 7x7</h1>
+          <div class="span3" style="float: none;">
+            <div class="input-prepend input-append">
+              <span class="add-on win_text">O won</span
+              ><strong id="o_win7" class="win_times add-on">0</strong
+              ><span class="add-on">time(s)</span>
+            </div>
+            <div class="input-prepend input-append">
+              <span class="add-on win_text">X won</span
+              ><strong id="x_win7" class="win_times add-on">0</strong
+              ><span class="add-on">time(s)</span>
+            </div>
+          </div>
+        </div>
+        <button id="btn-start-7">Starts from <b>O</b></button>
+        <div id="show-game-7">
+          <p>Time O: <span id="pro-7">0</span>s</p>
+          <p>Time X: <span id="prx-7">0</span>s</p>
+          <ul class="row r-7" id="game-7">
+            <li id="one7" class="btn span1">+</li>
+            <li id="two7" class="btn span1">+</li>
+            <li id="three7" class="btn span1">+</li>
+            <li id="four7" class="btn span1">+</li>
+            <li id="five7" class="btn span1">+</li>
+            <li id="six7" class="btn span1">+</li>
+            <li id="seven7" class="btn span1">+</li>
+            <li id="eight7" class="btn span1">+</li>
+            <li id="nine7" class="btn span1">+</li>
+            <li id="ten7" class="btn span1">+</li>
+            <li id="eleven7" class="btn span1">+</li>
+            <li id="twelve7" class="btn span1">+</li>
+            <li id="thirteen7" class="btn span1">+</li>
+            <li id="fourteen7" class="btn span1">+</li>
+            <li id="fifteen7" class="btn span1">+</li>
+            <li id="sixteen7" class="btn span1">+</li>
+            <li id="seventeen7" class="btn span1">+</li>
+            <li id="eighteen7" class="btn span1">+</li>
+            <li id="nineteen7" class="btn span1">+</li>
+            <li id="twenty7" class="btn span1">+</li>
+            <li id="twentyone7" class="btn span1">+</li>
+            <li id="twentytwo7" class="btn span1">+</li>
+            <li id="twentythree7" class="btn span1">+</li>
+            <li id="twentyfour7" class="btn span1">+</li>
+            <li id="twentyfive7" class="btn span1">+</li>
+            <li id="twentysix7" class="btn span1">+</li>
+            <li id="twentyseven7" class="btn span1">+</li>
+            <li id="twentyeight7" class="btn span1">+</li>
+            <li id="twentynine7" class="btn span1">+</li>
+            <li id="thirty7" class="btn span1">+</li>
+            <li id="thirtyone7" class="btn span1">+</li>
+            <li id="thirtytwo7" class="btn span1">+</li>
+            <li id="thirtythree7" class="btn span1">+</li>
+            <li id="thirtyfour7" class="btn span1">+</li>
+            <li id="thirtyfive7" class="btn span1">+</li>
+            <li id="thirtysix7" class="btn span1">+</li>
+            <li id="thirtyseven7" class="btn span1">+</li>
+            <li id="thirtyeight7" class="btn span1">+</li>
+            <li id="thirtynine7" class="btn span1">+</li>
+            <li id="fourty7" class="btn span1">+</li>
+            <li id="fourtyone7" class="btn span1">+</li>
+            <li id="fourtytwo7" class="btn span1">+</li>
+            <li id="fourtythree7" class="btn span1">+</li>
+            <li id="fourtyfour7" class="btn span1">+</li>
+            <li id="fourtyfive7" class="btn span1">+</li>
+            <li id="fourtysix7" class="btn span1">+</li>
+            <li id="fourtyseven7" class="btn span1">+</li>
+            <li id="fourtyeight7" class="btn span1">+</li>
+            <li id="fourtynine7" class="btn span1">+</li>
+          </ul>
+
+          <div class="clr">&nbsp;</div>
+          <div class="row">
+            <a href="#" id="reset-7" class="btn-success btn span3">Restart</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-1.7.2.min.js"></script>
+
+    <script src="js/index.js"></script>
+  </body>
+</html>

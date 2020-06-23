@@ -1,0 +1,252 @@
+/*******tic-tac-toe******/
+#tic-tac-toe .disable {
+  text-transform: uppercase;
+  font-size: 30px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+#tic-tac-toe #game li {
+  float: left;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #fff;
+  height: 60px;
+  line-height: 60px;
+  font-size: 40px;
+  color: #ccc;
+}
+#tic-tac-toe #game li.disable {
+  color: #fff;
+}
+#tic-tac-toe #game {
+  float: left;
+  padding: 0;
+  clear: both;
+}
+.new_span {
+  width: 226px;
+}
+#tic-tac-toe #reset {
+  padding: 5px 10px;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  clear: both;
+  cursor: pointer;
+  float: left;
+  text-align: center;
+  text-transform: uppercase;
+  outline: none;
+  width: 204px;
+}
+.input-prepend span.pre_text {
+  width: 55px;
+}
+.input-prepend .span1 {
+  width: 93px;
+}
+.input-prepend {
+  margin-bottom: 10px;
+}
+.clr {
+  clear: both;
+  height: 0;
+}
+#tic-tac-toe h1 {
+  text-align: center;
+  font-size: 28px;
+}
+#tic-tac-toe li::-moz-selection {
+  background: none;
+  color: #000;
+}
+#tic-tac-toe li::-webkit-selection {
+  background: none;
+  color: #000;
+}
+#tic-tac-toe {
+  width: 220px;
+  margin: 0 auto;
+}
+.input-append .win_times {
+  background: #fff;
+  width: 101px;
+}
+.input-append .win_text {
+  width: 52px;
+}
+
+#show-game {
+  display: none;
+}
+
+/* 5x5 */
+#tic-tac-toe-5 .disable {
+  text-transform: uppercase;
+  font-size: 30px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+#tic-tac-toe-5 #game-5 li {
+  float: left;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #fff;
+  height: 60px;
+  line-height: 60px;
+  font-size: 40px;
+  color: #ccc;
+}
+#tic-tac-toe-5 #game-5 li.disable {
+  color: #fff;
+}
+#tic-tac-toe-5 #game-5 {
+  float: left;
+  padding: 0;
+  clear: both;
+}
+.new_span-5 {
+  width: 450px;
+}
+#tic-tac-toe-5 #reset-5 {
+  padding: 5px 10px;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  clear: both;
+  cursor: pointer;
+  float: left;
+  text-align: center;
+  text-transform: uppercase;
+  outline: none;
+  width: 204px;
+}
+.input-prepend span.pre_text {
+  width: 55px;
+}
+.input-prepend .span1 {
+  width: 93px;
+}
+.input-prepend {
+  margin-bottom: 10px;
+}
+.clr {
+  clear: both;
+  height: 0;
+}
+#tic-tac-toe-5 h1 {
+  text-align: center;
+  font-size: 28px;
+}
+#tic-tac-toe-5 li::-moz-selection {
+  background: none;
+  color: #000;
+}
+#tic-tac-toe-5 li::-webkit-selection {
+  background: none;
+  color: #000;
+}
+#tic-tac-toe-5 {
+  width: 350px;
+  /* text-align: center; */
+  margin: 0 auto;
+}
+.input-append .win_times {
+  background: #fff;
+  width: 101px;
+}
+.input-append .win_text {
+  width: 52px;
+}
+
+#show-game-5 {
+  display: none;
+}
+
+/* 7x7 */
+#tic-tac-toe-7 .disable {
+  text-transform: uppercase;
+  font-size: 30px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+#tic-tac-toe-7 #game-7 li {
+  float: left;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #fff;
+  height: 60px;
+  line-height: 60px;
+  font-size: 40px;
+  color: #ccc;
+}
+#tic-tac-toe-7 #game-7 li.disable {
+  color: #fff;
+}
+#tic-tac-toe-7 #game-7 {
+  float: left;
+  padding: 0;
+  clear: both;
+}
+.new_span-7 {
+  width: 600px;
+}
+#tic-tac-toe-7 #reset-7 {
+  padding: 5px 10px;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  clear: both;
+  cursor: pointer;
+  float: left;
+  text-align: center;
+  text-transform: uppercase;
+  outline: none;
+  width: 204px;
+}
+.input-prepend span.pre_text {
+  width: 55px;
+}
+.input-prepend .span1 {
+  width: 93px;
+}
+.input-prepend {
+  margin-bottom: 10px;
+}
+.clr {
+  clear: both;
+  height: 0;
+}
+#tic-tac-toe-7 h1 {
+  text-align: center;
+  font-size: 28px;
+}
+#tic-tac-toe-7 li::-moz-selection {
+  background: none;
+  color: #000;
+}
+#tic-tac-toe-7 li::-webkit-selection {
+  background: none;
+  color: #000;
+}
+#tic-tac-toe-7 {
+  width: 500px;
+  /* text-align: center; */
+  margin: 0 auto;
+}
+.input-append .win_times {
+  background: #fff;
+  width: 101px;
+}
+.input-append .win_text {
+  width: 52px;
+}
+
+#show-game-7 {
+  display: none;
+}
+
+/*******tic-tac-toe END******/
